@@ -7,6 +7,9 @@ import com.core.Loops;
 import com.core.Methods;
 import com.core.SelectionStatements;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -38,7 +41,9 @@ public class Main {
         //***************OOP - Inheritance***********//
 
         //Project Object
-
+        Project project = new Project(1, LocalDateTime.now(),1,
+                LocalDateTime.now(),2,"PC","PN",new User("Nelson","Canywll",new Role(1,"Manager")) ,LocalDate.now(),LocalDate.of(2020,12,25),
+                "Ongoing","Top Secret");
 
 
 

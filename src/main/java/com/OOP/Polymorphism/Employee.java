@@ -19,7 +19,7 @@ public class Employee extends BaseEntity {
     private User employeeManager;
 
     public void getEmployeeHours(){
-        System.out.println("40 hours a week");
+        System.out.println("50 hours a week");
     }
 
 }

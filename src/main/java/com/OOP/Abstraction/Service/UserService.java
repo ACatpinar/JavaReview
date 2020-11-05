@@ -5,8 +5,6 @@ import com.OOP.Encapsulation.Role;
 import com.OOP.Encapsulation.User;
 
 public class UserService implements UserServiceImplementation {
-
-
     @Override
     public String userByRoleId(int id) {
         User user = new User("Mike","Smith",new Role(1,"Admin"));
@@ -19,4 +17,5 @@ public class UserService implements UserServiceImplementation {
         return user;
 
     }
+
 }
